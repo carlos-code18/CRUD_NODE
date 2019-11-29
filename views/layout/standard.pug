@@ -1,0 +1,16 @@
+doctype html
+html(lang="esp")
+    head
+        include ./head.pug
+        block tittle_block
+            title CRUDE
+        block head_block
+    body
+        include ./navbar.pug
+
+        block content
+        include ./footer.pug 
+        block body_block
+
+        script(src="/js/jquery.min.js")
+        script(src="/js/bootstrap.min.js")
